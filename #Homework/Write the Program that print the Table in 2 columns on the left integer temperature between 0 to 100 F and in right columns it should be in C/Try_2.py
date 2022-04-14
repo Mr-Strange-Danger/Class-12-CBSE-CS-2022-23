@@ -29,6 +29,8 @@ elif in1==7:
     print(' Temperature in Kelvin       :  ',kt3,' K')
     print(' Temperature in Celsius      :  ',ct3,' °C')
     print(' Temperature in Fahrenheit   :  ',ft3,' °F')
+else:
+    print(' # Please Try Again #\n # Enter Information Properly #')
 
 
 #Project Completed at apr 12 14:00:58 2022
