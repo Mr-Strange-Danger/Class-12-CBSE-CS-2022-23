@@ -1,6 +1,6 @@
-#Project Completed at apr 14 11:58:44 2022
-#Project Completed with Visual Studio Code
-#Support Visual Studio Code
+#Using Visual Studio Code
+#Main User using Git Service with GitHub
+#Made on apr 14 15:54:52 2022
 
 
 #%%
