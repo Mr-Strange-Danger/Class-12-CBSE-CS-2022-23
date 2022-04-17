@@ -5,17 +5,27 @@
 
 #%%
 #Q7 :
-import string
-
 
 telebook={'Jivin':'85000-00003'}
 for ui in range(2):
-    nm=(input('Enter The Name  : '))
-    ph=(input('Enter The Phone Number  : '))
-    temp_tb=dict()
-    temp_tb['name']=nm
-    temp_tb['phone']=ph
-    telebook.append(temp_tb)
+    nm=str(input('Enter The Name  : '))
+    ph=str(input('Enter The Phone Number  : '))
+    telebook[nm]=ph
+shnm=str(input('Name of th contact you want to find Phone Number : \n >>>  '))
+print(telebook.get(shnm))
+
+#%%
+#Q8 :
+teleb={'Jivin':'85000-00003'}
+for i8 in range(3):
+    m=str(input('Enter The Name  : '))
+    h=str(input('Enter The Phone Number  : '))
+    teleb[m]=h
+sh=str(input('Name of th contact you want to find Phone Number : \n >>>  '))
+print(teleb.get(sh))
+#%%
+#Q9 :
+
 
 
 
